@@ -7,7 +7,7 @@ describe("Check the Homepage", ()=>{
     before(()=>{
         cy.visit("")
     })
-
+    
     it("Verify the URL", ()=>{
         homepage.verify_Url("https://mooleker.moocommerce.no/")
     })

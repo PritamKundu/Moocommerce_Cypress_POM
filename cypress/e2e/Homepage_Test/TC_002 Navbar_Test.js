@@ -15,7 +15,7 @@ describe("Check the Homepage", ()=>{
     it("Verify the navbar content 'Raske leveranser' ", ()=>{
             navbar.navBar('Raske leveranser')
         })
-
+        
     it("Verify the navbar content '30 dagers åpne kjøp' ", ()=>{
             navbar.navBar('30 dagers åpne kjøp')
         })
