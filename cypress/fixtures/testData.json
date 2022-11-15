@@ -1,0 +1,98 @@
+{ 
+  "Signin": [{
+    "email": "soweno2342@evilant.com",
+    "password": "12345678"
+  }],
+
+  "textBoxData": [
+    {
+      "fullname": "Pranta",
+      "email": "Prantakundu.pk5@gmail.com",
+      "currentAddress": "Nikunja-2",
+      "permanentAddress": "Jhenaidah"
+    },
+    {
+      "fullname": "Pritam",
+      "email": "Pritam@gmail.com",
+      "currentAddress": "Dhaka",
+      "permanentAddress": "Shoilokupa"
+    },
+    {
+      "fullname": "Prosenjit",
+      "email": "Prosenjit@gmail.com",
+      "currentAddress": "Jhenaidah",
+      "permanentAddress": "Langalbandh"
+    },
+    {
+      "fullname": "Don",
+      "email": "Don@gmail.com",
+      "currentAddress": "Uttora",
+      "permanentAddress": "Jhenaidah"
+    }
+  ],
+  "checkBoxData": [
+    "notes",
+    "react",
+    "angular",
+    "veu",
+    "public",
+    "private"
+  ],
+  "formData": {
+    "email": [
+      "achagmail.com",
+      "asas@sdsdsdsd."
+    ],
+    "mobileNumber": [
+      "shgdjsdhjsd",
+      123456789
+    ]
+  },
+  "menuData": {
+    "selectValue": "A root option",
+    "selectOne": "Mrs.",
+    "OldStyleSelectMenu": "Blue",
+    "StandardMultiSelect": "opel"
+  },
+  "bookApplication": {
+    "register": {
+      "firstName": "Pranta",
+      "lastName": "Kundu",
+      "userName": "Pritam",
+      "password": "12345Aa!@"
+    },
+    "login": {
+      "userName": "Pranta",
+      "password": "12345Aa!@"
+    },
+    "invalidCredantial": [
+      {
+        "userName": "sdhsjdhskd",
+        "password": "hdkdjhs95965656"
+      },
+      {
+        "userName": "Pritam",
+        "password": "hdkdjhs95965656"
+      },
+      {
+        "userName": "sdsdsd",
+        "password": "12345Aa!@"
+      }
+    ],
+    "emptyField": [
+      {
+        "userName": "",
+        "password": "hdkdjhs95965656"
+      },
+      {
+        "userName": "Pritam",
+        "password": ""
+      },
+      {
+        "userName": "",
+        "password": ""
+      }
+    ],
+    "books":["Speaking JavaScript","Understanding ECMAScript 6","You Don't Know JS"]
+  }
+}
