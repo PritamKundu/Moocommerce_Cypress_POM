@@ -1,0 +1,1 @@
+# Woocommerce_Cypress_POM
