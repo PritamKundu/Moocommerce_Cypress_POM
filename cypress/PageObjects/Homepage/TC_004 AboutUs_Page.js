@@ -16,7 +16,7 @@ export class AboutUs {
         cy.get('#menu-item-20').realHover().should('have.css', 'color', 'rgb(75, 79, 88)')
     }
 
-    }
+}
 
 
 
