@@ -1,9 +1,6 @@
 ///<reference types="cypress-xpath"/>
 import "cypress-real-events";
 
-/*Locators*/
-//const home = "(//a[@class='menu-link'][normalize-space()='"+home+"'])[1]" ;
-
 /*Class & Function*/
 export class Menus {
 
