@@ -1,4 +1,4 @@
-import { ContactUs } from "../../PageObjects/Homepage/TC_003 ContactUs";
+import { ContactUs } from "../../PageObjects/Homepage/TC_003 ContactUs_Page";
 
 describe("Verify the 'Kontakt oss' menu at Navbar", ()=>{
 
