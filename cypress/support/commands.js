@@ -52,3 +52,10 @@ Cypress.Commands.add('openUrl', () => {
    cy.xpath("(//img[@alt='mooleker'])[1]").should('be.visible')
 })
 
+
+Cypress.Commands.add('isElementExist', (element) => {
+   cy.window().then((win) => {
+       const identifiedElement = win.document.xpath(element)
+       cy.log('Object value = ' + identifiedElement)
+   })
+})
