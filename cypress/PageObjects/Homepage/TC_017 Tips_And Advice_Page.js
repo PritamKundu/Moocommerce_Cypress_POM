@@ -137,5 +137,4 @@ export class TipsAndDevice {
       .should("have.css", "border-color", "rgb(200, 200, 200)");
     cy.get(post_comment_button).click();
   } 
-  
 }
