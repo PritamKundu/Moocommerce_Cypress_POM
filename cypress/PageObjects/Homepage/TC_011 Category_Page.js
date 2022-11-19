@@ -1,9 +1,6 @@
 ///<reference types="cypress-xpath"/>
 import "cypress-real-events";
 
-/* Locators */
-//const categories = "//h2[normalize-space()='Kategorier']";
-
 /*Class & Function*/
 export class Categories {
 
@@ -20,7 +17,7 @@ export class Categories {
 
   verifyCategoriesIcon(act_icon_number) {
     const category_icon = '(//img[@loading="lazy"])[' + act_icon_number + "]";
-    cy.xpath(category_icon).should("be.visible");
+    cy.xpath(category_icon).scrollIntoView().should("be.visible");
   }
 
   verifyCategoriesName(act_category_name) {
