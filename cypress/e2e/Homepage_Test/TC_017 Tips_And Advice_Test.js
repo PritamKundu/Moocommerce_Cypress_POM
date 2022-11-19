@@ -1,6 +1,6 @@
 import { TipsAndDevice } from "../../PageObjects/Homepage/TC_017 Tips_And Advice_Page";
 
-describe("Check the 'Tips og Råd' sction", () => {
+describe("Check the 'Tips og Råd' section", () => {
   const tips_advice = new TipsAndDevice();
 
   before(() => {
