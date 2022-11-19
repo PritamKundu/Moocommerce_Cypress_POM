@@ -9,13 +9,14 @@ describe("Check the Homepage", () => {
 
   it("Verify the navbar content 'Gratis frakt over 999 kr' ", () => {
     navbar.verifyNavBar("Gratis frakt over 999 kr");
+    //navbar.verifyNavBar()
   });
 
-  it("Verify the navbar content 'Raske leveranser' ", () => {
+ /*  it("Verify the navbar content 'Raske leveranser' ", () => {
     navbar.verifyNavBar("Raske leveranser");
   });
 
   it("Verify the navbar content '30 dagers åpne kjøp' ", () => {
     navbar.verifyNavBar("30 dagers åpne kjøp");
-  });
+  }); */
 });

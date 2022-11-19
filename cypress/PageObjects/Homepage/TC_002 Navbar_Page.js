@@ -3,6 +3,7 @@
 /*Locators*/
 const navbar = ".moo-text";
 
+
 /*Class & Function*/
 export class Navbar {
   verifyNavBar(act_nav_content) {

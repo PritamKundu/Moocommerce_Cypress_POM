@@ -2,13 +2,14 @@
 import "cypress-real-events";
 
 /* Locators */
-const categories = "//h2[normalize-space()='Kategorier']";
+//const categories = "//h2[normalize-space()='Kategorier']";
 
 /*Class & Function*/
 export class Categories {
-  verifyCategoriesHeader(act_categories_text) {
+
+  verifySectionTitle(act_categories_text) {
+    const categories = "//h2[normalize-space()='"+act_categories_text+"']";
     cy.xpath(categories).scrollIntoView().should("be.visible");
-    cy.xpath(categories).should("be.visible");
     cy.xpath(categories).should("have.css", "color", "rgb(0, 0, 0)");
     cy.xpath(categories)
       .invoke("text")

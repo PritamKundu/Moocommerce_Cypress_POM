@@ -8,7 +8,7 @@ describe("Verify All categories icon & text", () => {
   });
 
   it("Verify the 'Kategorier' text is visible", () => {
-    category.verifyCategoriesHeader("Kategorier");
+    category.verifySectionTitle("Kategorier");
     cy.wait(2000);
   });
 
