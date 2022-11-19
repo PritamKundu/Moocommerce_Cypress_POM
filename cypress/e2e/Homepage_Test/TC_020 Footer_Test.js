@@ -35,4 +35,7 @@ describe("Verify the 'Følg MooLeker på Instagram' section", () => {
     instagram.verifyInstagraSubTitle('Nettbutikken din bør designes og bygges med brukerne og deres behov i sentrum.')
     footer.verifyFooter('Tips', 'Tips')
   });
+
+
+  
 });
