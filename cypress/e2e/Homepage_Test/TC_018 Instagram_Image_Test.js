@@ -5,7 +5,7 @@ import { Categories } from "../../PageObjects/Homepage/TC_011 Category_Page";
 describe("Verify the 'Følg MooLeker på Instagram' section", () => {
   const instagram = new Instagram();
   const category = new Categories();
-  
+
   before(() => {
     cy.openUrl();
   });

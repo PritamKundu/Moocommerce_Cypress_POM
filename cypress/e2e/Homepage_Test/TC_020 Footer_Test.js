@@ -37,5 +37,5 @@ describe("Verify the 'Følg MooLeker på Instagram' section", () => {
   });
 
 
-  
+
 });
