@@ -16,6 +16,6 @@ export class Product_Filter {
     /* Verify Procuct filter at shop page */
     cy.get(product_filter).should('be.visible');
     cy.get(product_filter).select(act_product_filter_number).should('contain', act_product_filter_name)
-    cy.get(product_filter).select(3).should('have.css', 'color', 'rgb(102, 102, 102)')
+    cy.get(product_filter).select(act_product_filter_number).should('have.css', 'color', 'rgb(102, 102, 102)')
   }
 }
