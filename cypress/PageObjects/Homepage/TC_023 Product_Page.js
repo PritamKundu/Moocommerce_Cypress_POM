@@ -12,7 +12,7 @@ const size = "#size"
 const nullstill = ".reset_variations"
 const stock = "//span[@class='stock in-stock']"
 const decrese_button = "#minus_qty"
-const quantity_box = "#quantity_637b9cab66b04"
+const quantity_box = '(//input[@class="input-text qty text"])[1]'
 const increse_button = "#plus_qty"
 const buy_button = 'button[class="single_add_to_cart_button button alt"]'
 const pay_instruction_text = "//legend[contains(text(),'Pay easy with')]"
@@ -34,7 +34,7 @@ export class Product_Page {
       product_number +
       "]";
       cy.xpath(product_image).click()
-      cy.wait(1000)
+      cy.wait(3000)
 
     /* Verify product main image */
     cy.get(main_image).should('be.visible')
@@ -72,11 +72,11 @@ export class Product_Page {
     cy.get(decrese_button).click()
 
     /* Verify product quantity */
-    cy.get(quantity_box).should('be.visible')
-    cy.get(quantity_box).click()
+    cy.xpath(quantity_box).should('be.visible')
+    cy.xpath(quantity_box).click()
     cy.wait(3000)
-    cy.get(quantity_box).clear()
-    cy.get(quantity_box).type(10)
+    cy.xpath(quantity_box).clear()
+    cy.xpath(quantity_box).type(10)
     cy.wait(3000)
 
     /* Verify quantity increase button stock*/

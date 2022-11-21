@@ -10,7 +10,7 @@ describe("Verify product information page ", () => {
   });
 
   it("Verify product information page", () => {
-    product_page.verifyProductInformation(1, 'Air Layer 2/3 Bilseterforing Mørkegrå', 'S')
+    product_page.verifyProductInformation(2, 'Baby Body Lyse grønn', 'M')
   });
 
 });

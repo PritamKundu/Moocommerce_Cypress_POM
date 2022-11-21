@@ -12,7 +12,7 @@ const size = "#size"
 const nullstill = ".reset_variations"
 const stock = "//span[@class='stock in-stock']"
 const decrese_button = "#minus_qty"
-const quantity_box = "#quantity_637b9cab66b04"
+const quantity_box = '(//input[@class="input-text qty text"])[1]'
 const increse_button = "#plus_qty"
 const buy_button = 'button[class="single_add_to_cart_button button alt"]'
 const product_successfully_cart = "//div[@class='xoo-cp-atcn xoo-cp-success']"
@@ -79,11 +79,11 @@ export class Addtocart {
     cy.get(decrese_button).click()
 
     /* Verify product quantity */
-    cy.get(quantity_box).should('be.visible')
-    cy.get(quantity_box).click()
+    cy.xpath(quantity_box).should('be.visible')
+    cy.xpath(quantity_box).click()
     cy.wait(3000)
-    cy.get(quantity_box).clear()
-    cy.get(quantity_box).type(10)
+    cy.xpath(quantity_box).clear()
+    cy.xpath(quantity_box).type(10)
     cy.wait(3000)
 
     /* Verify quantity increase button stock*/
@@ -204,14 +204,6 @@ export class Addtocart {
     cy.xpath(update_shopping_cart).should('have.css', 'border-color', 'rgb(229, 171, 171)')
     cy.wait(500)
     cy.xpath(update_shopping_cart).should('have.css', 'background-color', 'rgb(229, 171, 171)')
-    cy.wait(500)
-
-    /* After Hover shopping cart button */
-    cy.xpath(update_shopping_cart).realHover().should('have.css', 'color', 'rgb(0, 0, 0)')
-    cy.wait(500)
-    cy.xpath(update_shopping_cart).realHover().should('have.css', 'border-color', 'rgb(229, 171, 171)')
-    cy.wait(500)
-    cy.xpath(update_shopping_cart).realHover().should('have.css', 'background-color', 'rgb(229, 171, 171)')
     cy.wait(500)
 
     /* verify have a coupon hyperlink */
