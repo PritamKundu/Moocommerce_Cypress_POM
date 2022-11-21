@@ -8,6 +8,7 @@ describe("Check the product filtering category ", () => {
 
   before(() => {
     cy.visit('/shop')
+    cy.viewport(1280, 720)
   });
 
   it("Verify the 'Ukategorisert' product category filtering", () => {
@@ -25,7 +26,7 @@ describe("Check the product filtering category ", () => {
     product_catregory_filter.verifyProductCatergoryFilter('3', 'Kavat')
   });
 
-  it("Verify the product category filtering", () => {
+  it("Verify the 'Kuling' product category filtering", () => {
     menu.verifyMenus("Nettbutikk", "shop/");
     product_catregory_filter.verifyProductCatergoryFilter('4', 'Kuling')
   });

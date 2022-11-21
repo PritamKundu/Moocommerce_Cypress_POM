@@ -5,6 +5,7 @@ describe("Check the Homepage", () => {
 
   before(() => {
     cy.visit("");
+    cy.viewport(1280, 720)
   });
 
   it("Verify the URL", () => {
