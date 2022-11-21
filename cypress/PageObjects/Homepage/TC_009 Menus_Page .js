@@ -13,7 +13,7 @@ export class Menus {
         cy.xpath(home).click();
         cy.wait(2000);
         cy.url().should("eq", "https://mooleker.moocommerce.no/" + endpoint);
-        cy.go("back");
+        //cy.go("back");
       }
     });
   }
