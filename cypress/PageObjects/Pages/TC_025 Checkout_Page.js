@@ -23,12 +23,6 @@ const product_quantity_add = "input[class='xoo-cp-qty']"
 const product_total_price = "//div[@class='xoo-cp-ptotal']"
 const checkout = "//a[normalize-space()='Checkout']"
 const cash_register_title = "//h1[@class='entry-title']"
-const your_information = '//h2[@data-cid="section-title"]'
-const billing_email = '#billing-email'
-const postal_code = "#billing-postal_code"
-const continue_button = '#button-primary__text'
-const pay_the_order = 'button[data-cid="button.buy_button"]'
-const checkout_page_image = '(//img[@class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"])[1]'
 const subtotal = "(//th[contains(text(),'Delsum')])[1]"
 const freight = "(//th[contains(text(),'Frakt')])[1]"
 const total = "(//th[contains(text(),'Totalt')])[1]"
