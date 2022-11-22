@@ -13,6 +13,7 @@
     "cypress": "^10.10.0",
     "cypress-real-events": "^1.7.4",
     "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress-xpath": "^2.0.1"
 } <br>
 
 * IDE: Visual Studio Code <br>
