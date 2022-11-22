@@ -48,8 +48,6 @@
 
 ## Allure Report view from browser:
 
-<embed src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture.PNG" width="500" height="375">
-
-<embed src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture2.PNG" width="500" height="375">
-
-<embed src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture3.PNG" width="500" height="375">
+<embed> https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture3.PNG </embed>
+<embed> https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture3.PNG </embed>
+<embed> https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture3.PNG </embed>
