@@ -1,0 +1,641 @@
+[ {
+  "uid" : "87c705590fb14a19",
+  "name" : "Verify the 'Barnesko' category is visible",
+  "time" : {
+    "start" : 1669137019670,
+    "stop" : 1669137021999,
+    "duration" : 2329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "558f7d1b4b613584",
+  "name" : "Verify the 'Kjøp Nå' button is visible",
+  "time" : {
+    "start" : 1669137063913,
+    "stop" : 1669137064334,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "342266fd17615e94",
+  "name" : "Verify the 'Se alle nyheter' button",
+  "time" : {
+    "start" : 1669136845971,
+    "stop" : 1669136854143,
+    "duration" : 8172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "418cec37dc379d25",
+  "name" : "Verify the 'Bilstoler' category is visible",
+  "time" : {
+    "start" : 1669137023151,
+    "stop" : 1669137024164,
+    "duration" : 1013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22a40076e1eac2df",
+  "name" : "Verify the third helper banner ",
+  "time" : {
+    "start" : 1669136720828,
+    "stop" : 1669136721900,
+    "duration" : 1072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16c5b960abca7993",
+  "name" : "Verify the 'Hjem' menu ",
+  "time" : {
+    "start" : 1669136571612,
+    "stop" : 1669136580426,
+    "duration" : 8814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1542bf99e9f2bd24",
+  "name" : "Verify the product price",
+  "time" : {
+    "start" : 1669136924194,
+    "stop" : 1669136926271,
+    "duration" : 2077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48dd86a93b369aed",
+  "name" : "Verify the Homepage logo is visible",
+  "time" : {
+    "start" : 1669136231443,
+    "stop" : 1669136233924,
+    "duration" : 2481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecc4fcdc47ed3894",
+  "name" : "Verify the 'Ønskeliste' icon at Navbar",
+  "time" : {
+    "start" : 1669136456558,
+    "stop" : 1669136461615,
+    "duration" : 5057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a31601527ab31bf6",
+  "name" : "Check the 'Utvalgte kategorier' section is visible",
+  "time" : {
+    "start" : 1669137017091,
+    "stop" : 1669137017983,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "906f92107701a2fe",
+  "name" : "Verify the navbar content 'Gratis frakt over 999 kr' ",
+  "time" : {
+    "start" : 1669136257970,
+    "stop" : 1669136262689,
+    "duration" : 4719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a993dbdb375407b",
+  "name" : "Check the 'Tips og Råd' sction title name",
+  "time" : {
+    "start" : 1669137089659,
+    "stop" : 1669137091055,
+    "duration" : 1396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cb6f606c6f87290",
+  "name" : "Verify the 'Nettbutikk' menu ",
+  "time" : {
+    "start" : 1669136606805,
+    "stop" : 1669136617924,
+    "duration" : 11119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8d53ac8fdfc5f94",
+  "name" : "Verify 'Search' option is visible or not",
+  "time" : {
+    "start" : 1669136383739,
+    "stop" : 1669136403170,
+    "duration" : 19431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca7ea5e4c867f027",
+  "name" : "Verify 'Tilbehør' category icon & text",
+  "time" : {
+    "start" : 1669136788060,
+    "stop" : 1669136790432,
+    "duration" : 2372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8444612b94aa47d",
+  "name" : "Check the blog comment box",
+  "time" : {
+    "start" : 1669137100817,
+    "stop" : 1669137107074,
+    "duration" : 6257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "410e873bbd590a24",
+  "name" : "Verify the main banner ",
+  "time" : {
+    "start" : 1669136711740,
+    "stop" : 1669136718756,
+    "duration" : 7016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4dd386a0b639f12",
+  "name" : "Verify the 'Kontakt oss' menu ",
+  "time" : {
+    "start" : 1669136590024,
+    "stop" : 1669136597543,
+    "duration" : 7519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f342cf37c729a568",
+  "name" : "Verify the footer '1st' block",
+  "time" : {
+    "start" : 1669137297466,
+    "stop" : 1669137305840,
+    "duration" : 8374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "365559c66183cce5",
+  "name" : "Verify the product image",
+  "time" : {
+    "start" : 1669136901269,
+    "stop" : 1669136910252,
+    "duration" : 8983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2f05cd459fdcf4b",
+  "name" : "Check the blog description",
+  "time" : {
+    "start" : 1669137099284,
+    "stop" : 1669137100112,
+    "duration" : 828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f6cd5150b91184",
+  "name" : "Verify the footer '2nd' block",
+  "time" : {
+    "start" : 1669137306007,
+    "stop" : 1669137310523,
+    "duration" : 4516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "865f22d82ed195e8",
+  "name" : "Check the blog previous button",
+  "time" : {
+    "start" : 1669137100197,
+    "stop" : 1669137100314,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcc4695ceca1554f",
+  "name" : "Verify the 'Kuling' product category filtering",
+  "time" : {
+    "start" : 1669137621881,
+    "stop" : 1669137647948,
+    "duration" : 26067
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e4fe766ae2d5133",
+  "name" : "Verify the URL",
+  "time" : {
+    "start" : 1669136296002,
+    "stop" : 1669136296153,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6e94ca346ea36b9",
+  "name" : "Verify the header 'Følg MooLeker på Instagram' image is visible",
+  "time" : {
+    "start" : 1669137184340,
+    "stop" : 1669137185327,
+    "duration" : 987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e566bd9a5940bc3b",
+  "name" : "Verify the 'Kategorier' text is visible",
+  "time" : {
+    "start" : 1669136763452,
+    "stop" : 1669136768279,
+    "duration" : 4827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf61b2d79fc42ea0",
+  "name" : "Verify the 'Nyheter' text is visible",
+  "time" : {
+    "start" : 1669136899283,
+    "stop" : 1669136900569,
+    "duration" : 1286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77750a050011dc48",
+  "name" : "Verify the URL",
+  "time" : {
+    "start" : 1669136230784,
+    "stop" : 1669136231285,
+    "duration" : 501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a80de2a2accac326",
+  "name" : "Verify the 'Account' icon at Navbar",
+  "time" : {
+    "start" : 1669136540314,
+    "stop" : 1669136540922,
+    "duration" : 608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fabc7b50427a23cc",
+  "name" : "Verify the 'Inspirasjon' menu ",
+  "time" : {
+    "start" : 1669136580542,
+    "stop" : 1669136589533,
+    "duration" : 8991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5576d3a9d4cf4e53",
+  "name" : "Verify the 'Legg i handlekurv' icon at Navbar",
+  "time" : {
+    "start" : 1669136508645,
+    "stop" : 1669136511110,
+    "duration" : 2465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bbe46eed74afab2",
+  "name" : "Verify the carousel slider is visible",
+  "time" : {
+    "start" : 1669137060220,
+    "stop" : 1669137061074,
+    "duration" : 854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc1a2e09d3bf8db1",
+  "name" : "Check the blog comment title",
+  "time" : {
+    "start" : 1669137100444,
+    "stop" : 1669137100808,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "620ec846b1cbb128",
+  "name" : "Verify the 'AeroMoov' product category filtering",
+  "time" : {
+    "start" : 1669137550706,
+    "stop" : 1669137591092,
+    "duration" : 40386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec08893974db98f7",
+  "name" : "Verify product information page",
+  "time" : {
+    "start" : 1669137930525,
+    "stop" : 1669137949254,
+    "duration" : 18729
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b454d7331f3ffa61",
+  "name" : "Check the blog image & title name",
+  "time" : {
+    "start" : 1669137092821,
+    "stop" : 1669137099115,
+    "duration" : 6294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e78ae9a8c14f149",
+  "name" : "Verify 'Bilstoler' category icon & text",
+  "time" : {
+    "start" : 1669136785367,
+    "stop" : 1669136788039,
+    "duration" : 2672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d25b613ee10b0109",
+  "name" : "Check the blog next button",
+  "time" : {
+    "start" : 1669137100318,
+    "stop" : 1669137100406,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f462df981deea941",
+  "name" : "Verify the footer '4th' block",
+  "time" : {
+    "start" : 1669137316383,
+    "stop" : 1669137320337,
+    "duration" : 3954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e49e82024b23dbb",
+  "name" : "Check the blog 'post comment' button",
+  "time" : {
+    "start" : 1669137119323,
+    "stop" : 1669137123238,
+    "duration" : 3915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "972e1dca41dde05b",
+  "name" : "Verify the 'Om Oss' menu ",
+  "time" : {
+    "start" : 1669136598113,
+    "stop" : 1669136606171,
+    "duration" : 8058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "274c7fb8b460618f",
+  "name" : "Verify the select option",
+  "time" : {
+    "start" : 1669136926556,
+    "stop" : 1669136935148,
+    "duration" : 8592
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "388f86df3745f34d",
+  "name" : "Verify the URL",
+  "time" : {
+    "start" : 1669136330928,
+    "stop" : 1669136332298,
+    "duration" : 1370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e01b12edca05134d",
+  "name" : "Verify the 'Om Oss' menu at Navbar",
+  "time" : {
+    "start" : 1669136321065,
+    "stop" : 1669136330499,
+    "duration" : 9434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b0dd766e2dc7eb",
+  "name" : "Verify the second helper banner ",
+  "time" : {
+    "start" : 1669136718987,
+    "stop" : 1669136720678,
+    "duration" : 1691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4774e54d4eed9f1",
+  "name" : "Verify the product title",
+  "time" : {
+    "start" : 1669136910514,
+    "stop" : 1669136923819,
+    "duration" : 13305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e9acebb0803049a",
+  "name" : "Verify the footer '3rd' block",
+  "time" : {
+    "start" : 1669137311232,
+    "stop" : 1669137316367,
+    "duration" : 5135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d11563b6482d0a7e",
+  "name" : "Verify the 'Ukategorisert' product category filtering",
+  "time" : {
+    "start" : 1669137508353,
+    "stop" : 1669137550398,
+    "duration" : 42045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f389cbb1653783c",
+  "name" : "Check the blog name box",
+  "time" : {
+    "start" : 1669137114372,
+    "stop" : 1669137117569,
+    "duration" : 3197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0d238620e4a6cbe",
+  "name" : "Verify the 'Følg MooLeker på Instagram' text is visible",
+  "time" : {
+    "start" : 1669137180520,
+    "stop" : 1669137182766,
+    "duration" : 2246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f01664d93bdaa61",
+  "name" : "Verify the 'Ønskeliste' count at Navbar",
+  "time" : {
+    "start" : 1669136461993,
+    "stop" : 1669136467561,
+    "duration" : 5568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75e4fe2ececd14f0",
+  "name" : "Verify the 'Kontakt oss' menu at Navbar ",
+  "time" : {
+    "start" : 1669136292308,
+    "stop" : 1669136295721,
+    "duration" : 3413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d628f16df636e807",
+  "name" : "Verify the 'Email' & Singnup",
+  "time" : {
+    "start" : 1669137230797,
+    "stop" : 1669137249223,
+    "duration" : 18426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c438ac2f8a92de6",
+  "name" : "Verify the product filtering",
+  "time" : {
+    "start" : 1669137370739,
+    "stop" : 1669137392290,
+    "duration" : 21551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6da480bf966f2d2f",
+  "name" : "Check the blog comment check box",
+  "time" : {
+    "start" : 1669137117765,
+    "stop" : 1669137119224,
+    "duration" : 1459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b242f012fd20b24",
+  "name" : "Verify the 'add to wishlist' hyperlink",
+  "time" : {
+    "start" : 1669136935385,
+    "stop" : 1669136950315,
+    "duration" : 14930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d90d9edcafbb669",
+  "name" : "Verify the 'Kavat' product category filtering",
+  "time" : {
+    "start" : 1669137591293,
+    "stop" : 1669137621731,
+    "duration" : 30438
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ba5f9d99c935e03",
+  "name" : "Verify the header 'title' is visible",
+  "time" : {
+    "start" : 1669137061807,
+    "stop" : 1669137063880,
+    "duration" : 2073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c900560fb6ee5130",
+  "name" : "Verify 'Barnevogner' category icon & text",
+  "time" : {
+    "start" : 1669136777101,
+    "stop" : 1669136785354,
+    "duration" : 8253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54859b6e075f7b69",
+  "name" : "Verify the 'Ønskeliste' menu ",
+  "time" : {
+    "start" : 1669136618162,
+    "stop" : 1669136626971,
+    "duration" : 8809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "202552acb63439d6",
+  "name" : "Verify the 'Barneklær' category is visible",
+  "time" : {
+    "start" : 1669137022042,
+    "stop" : 1669137023126,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4ce20c2669010e5",
+  "name" : "Verify 'Barneklær' category icon & text",
+  "time" : {
+    "start" : 1669136768512,
+    "stop" : 1669136772404,
+    "duration" : 3892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "734ff1dc7696b10d",
+  "name" : "Verify 'Barnesko' category icon & text",
+  "time" : {
+    "start" : 1669136772930,
+    "stop" : 1669136777023,
+    "duration" : 4093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

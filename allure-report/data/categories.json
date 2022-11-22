@@ -1,0 +1,93 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected '<a.button.product_type_variable.add_to_cart_button.>' to have CSS property 'border-color' with the value 'rgb(229, 171, 171)', but the value was 'rgb(200, 200, 200)'",
+      "children" : [ {
+        "name" : "Verify the select option",
+        "uid" : "274c7fb8b460618f",
+        "parentUid" : "a35981e2fdfbbb8951f48b5af04304fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669136926556,
+          "stop" : 1669136935148,
+          "duration" : 8592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a35981e2fdfbbb8951f48b5af04304fc"
+    }, {
+      "name" : "Timed out retrying after 4050ms: `cy.click()` could not be issued because this element is currently animating:\n\n`<div class=\"iradio_square-blue\" style=\"position: relative;\">...</div>`\n\nYou can fix this problem by:\n  - Passing `{force: true}` which disables all error checking\n  - Passing `{waitForAnimations: false}` which disables waiting on animations\n  - Passing `{animationDistanceThreshold: 20}` which decreases the sensitivity\n\nhttps://on.cypress.io/element-is-animating",
+      "children" : [ {
+        "name" : "Verify the 'Kavat' product category filtering",
+        "uid" : "7d90d9edcafbb669",
+        "parentUid" : "9503e25290875f184db3850f22b8f554",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669137591293,
+          "stop" : 1669137621731,
+          "duration" : 30438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9503e25290875f184db3850f22b8f554"
+    }, {
+      "name" : "Timed out retrying after 10000ms: Expected to find element: `(//div[@class=\"iradio_square-blue\"])[4]`, but never found it.",
+      "children" : [ {
+        "name" : "Verify the 'Kuling' product category filtering",
+        "uid" : "dcc4695ceca1554f",
+        "parentUid" : "0086e1ed224f619a75e5436a58ecf8e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669137621881,
+          "stop" : 1669137647948,
+          "duration" : 26067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0086e1ed224f619a75e5436a58ecf8e0"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected '<img.wp-post-image>' to be 'visible'\n\nThis element `<img.wp-post-image>` is not visible because its parent `<div.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images>` has CSS property: `opacity: 0`",
+      "children" : [ {
+        "name" : "Verify product information page",
+        "uid" : "ec08893974db98f7",
+        "parentUid" : "6cf542c5e33a3f0f504cb1b4830d3127",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669137930525,
+          "stop" : 1669137949254,
+          "duration" : 18729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6cf542c5e33a3f0f504cb1b4830d3127"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

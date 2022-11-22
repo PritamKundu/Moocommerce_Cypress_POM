@@ -1,0 +1,114 @@
+{
+  "total" : 20,
+  "items" : [ {
+    "uid" : "7782a9e0659096f3d543a369a147226e",
+    "name" : "Check the product filtering category ",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+    "name" : "Check the product visiblility at homepage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "7bc2f678be6d668237cbd5c1d8b33977",
+    "name" : "Verify product information page ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "10cceb95eb38681af2dfaff2cdc6a552",
+    "name" : "Check the 'Tips og Råd' section",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "03f6bd4ee98c279a667462dec5745df9",
+    "name" : "Verify All menus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "14b89cc3b3cd989556a2c11559fe25a9",
+    "name" : "Verify All categories icon & text",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+    "name" : "Verify the 'Følg MooLeker på Instagram' section",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "9996f84ca50e17e2e35bb94040ab53c8",
+    "name" : "Check the 'Utvalgte kategorier' section",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "3b96caf625dab38850d7c4cb1569a1f3",
+    "name" : "Check the Homepage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "737bd5c17d0e13457c34552c50832626",
+    "name" : "Verify All Banner",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

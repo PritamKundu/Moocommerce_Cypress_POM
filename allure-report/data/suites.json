@@ -1,0 +1,1173 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Check the Homepage",
+    "children" : [ {
+      "name" : "Verify the URL",
+      "uid" : "77750a050011dc48",
+      "parentUid" : "3b96caf625dab38850d7c4cb1569a1f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136230784,
+        "stop" : 1669136231285,
+        "duration" : 501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the Homepage logo is visible",
+      "uid" : "48dd86a93b369aed",
+      "parentUid" : "3b96caf625dab38850d7c4cb1569a1f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136231443,
+        "stop" : 1669136233924,
+        "duration" : 2481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the navbar content 'Gratis frakt over 999 kr' ",
+      "uid" : "906f92107701a2fe",
+      "parentUid" : "3b96caf625dab38850d7c4cb1569a1f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136257970,
+        "stop" : 1669136262689,
+        "duration" : 4719
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3b96caf625dab38850d7c4cb1569a1f3"
+  }, {
+    "name" : "Verify the 'Kontakt oss' menu at Navbar",
+    "children" : [ {
+      "name" : "Verify the 'Kontakt oss' menu at Navbar ",
+      "uid" : "75e4fe2ececd14f0",
+      "parentUid" : "05d8b9c63b075309d9fe45962592f6d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136292308,
+        "stop" : 1669136295721,
+        "duration" : 3413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the URL",
+      "uid" : "8e4fe766ae2d5133",
+      "parentUid" : "05d8b9c63b075309d9fe45962592f6d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136296002,
+        "stop" : 1669136296153,
+        "duration" : 151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05d8b9c63b075309d9fe45962592f6d9"
+  }, {
+    "name" : "Verify the 'Om Oss' menu at Navbar",
+    "children" : [ {
+      "name" : "Verify the 'Om Oss' menu at Navbar",
+      "uid" : "e01b12edca05134d",
+      "parentUid" : "f28c6e9921b2fbfd925812e8b95b767a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136321065,
+        "stop" : 1669136330499,
+        "duration" : 9434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the URL",
+      "uid" : "388f86df3745f34d",
+      "parentUid" : "f28c6e9921b2fbfd925812e8b95b767a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136330928,
+        "stop" : 1669136332298,
+        "duration" : 1370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f28c6e9921b2fbfd925812e8b95b767a"
+  }, {
+    "name" : "Verify the 'Search' option at Navbar",
+    "children" : [ {
+      "name" : "Verify 'Search' option is visible or not",
+      "uid" : "b8d53ac8fdfc5f94",
+      "parentUid" : "88b0b31c25e37e29a8cabb7117c7acdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136383739,
+        "stop" : 1669136403170,
+        "duration" : 19431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "88b0b31c25e37e29a8cabb7117c7acdd"
+  }, {
+    "name" : "Verify the 'Ønskeliste' icon at Navbar",
+    "children" : [ {
+      "name" : "Verify the 'Ønskeliste' icon at Navbar",
+      "uid" : "ecc4fcdc47ed3894",
+      "parentUid" : "8ec1caffc32cfdfad3ab0642f9dd96bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136456558,
+        "stop" : 1669136461615,
+        "duration" : 5057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Ønskeliste' count at Navbar",
+      "uid" : "2f01664d93bdaa61",
+      "parentUid" : "8ec1caffc32cfdfad3ab0642f9dd96bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136461993,
+        "stop" : 1669136467561,
+        "duration" : 5568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8ec1caffc32cfdfad3ab0642f9dd96bf"
+  }, {
+    "name" : "Verify the 'Legg i handlekurv' icon at Navbar",
+    "children" : [ {
+      "name" : "Verify the 'Legg i handlekurv' icon at Navbar",
+      "uid" : "5576d3a9d4cf4e53",
+      "parentUid" : "eaf3c90640efefd95706279920f964db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136508645,
+        "stop" : 1669136511110,
+        "duration" : 2465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eaf3c90640efefd95706279920f964db"
+  }, {
+    "name" : "Verify the 'Account' icon at Navbar",
+    "children" : [ {
+      "name" : "Verify the 'Account' icon at Navbar",
+      "uid" : "a80de2a2accac326",
+      "parentUid" : "9b65d59bc9c5f14d95b4b717a9577395",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136540314,
+        "stop" : 1669136540922,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9b65d59bc9c5f14d95b4b717a9577395"
+  }, {
+    "name" : "Verify All menus",
+    "children" : [ {
+      "name" : "Verify the 'Hjem' menu ",
+      "uid" : "16c5b960abca7993",
+      "parentUid" : "03f6bd4ee98c279a667462dec5745df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136571612,
+        "stop" : 1669136580426,
+        "duration" : 8814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Inspirasjon' menu ",
+      "uid" : "fabc7b50427a23cc",
+      "parentUid" : "03f6bd4ee98c279a667462dec5745df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136580542,
+        "stop" : 1669136589533,
+        "duration" : 8991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Kontakt oss' menu ",
+      "uid" : "b4dd386a0b639f12",
+      "parentUid" : "03f6bd4ee98c279a667462dec5745df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136590024,
+        "stop" : 1669136597543,
+        "duration" : 7519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Om Oss' menu ",
+      "uid" : "972e1dca41dde05b",
+      "parentUid" : "03f6bd4ee98c279a667462dec5745df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136598113,
+        "stop" : 1669136606171,
+        "duration" : 8058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Nettbutikk' menu ",
+      "uid" : "5cb6f606c6f87290",
+      "parentUid" : "03f6bd4ee98c279a667462dec5745df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136606805,
+        "stop" : 1669136617924,
+        "duration" : 11119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Ønskeliste' menu ",
+      "uid" : "54859b6e075f7b69",
+      "parentUid" : "03f6bd4ee98c279a667462dec5745df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136618162,
+        "stop" : 1669136626971,
+        "duration" : 8809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "03f6bd4ee98c279a667462dec5745df9"
+  }, {
+    "name" : "Verify All Banner",
+    "children" : [ {
+      "name" : "Verify the main banner ",
+      "uid" : "410e873bbd590a24",
+      "parentUid" : "737bd5c17d0e13457c34552c50832626",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136711740,
+        "stop" : 1669136718756,
+        "duration" : 7016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the second helper banner ",
+      "uid" : "f4b0dd766e2dc7eb",
+      "parentUid" : "737bd5c17d0e13457c34552c50832626",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136718987,
+        "stop" : 1669136720678,
+        "duration" : 1691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the third helper banner ",
+      "uid" : "22a40076e1eac2df",
+      "parentUid" : "737bd5c17d0e13457c34552c50832626",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136720828,
+        "stop" : 1669136721900,
+        "duration" : 1072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "737bd5c17d0e13457c34552c50832626"
+  }, {
+    "name" : "Verify All categories icon & text",
+    "children" : [ {
+      "name" : "Verify the 'Kategorier' text is visible",
+      "uid" : "e566bd9a5940bc3b",
+      "parentUid" : "14b89cc3b3cd989556a2c11559fe25a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136763452,
+        "stop" : 1669136768279,
+        "duration" : 4827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify 'Barneklær' category icon & text",
+      "uid" : "d4ce20c2669010e5",
+      "parentUid" : "14b89cc3b3cd989556a2c11559fe25a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136768512,
+        "stop" : 1669136772404,
+        "duration" : 3892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify 'Barnesko' category icon & text",
+      "uid" : "734ff1dc7696b10d",
+      "parentUid" : "14b89cc3b3cd989556a2c11559fe25a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136772930,
+        "stop" : 1669136777023,
+        "duration" : 4093
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify 'Barnevogner' category icon & text",
+      "uid" : "c900560fb6ee5130",
+      "parentUid" : "14b89cc3b3cd989556a2c11559fe25a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136777101,
+        "stop" : 1669136785354,
+        "duration" : 8253
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify 'Bilstoler' category icon & text",
+      "uid" : "3e78ae9a8c14f149",
+      "parentUid" : "14b89cc3b3cd989556a2c11559fe25a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136785367,
+        "stop" : 1669136788039,
+        "duration" : 2672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify 'Tilbehør' category icon & text",
+      "uid" : "ca7ea5e4c867f027",
+      "parentUid" : "14b89cc3b3cd989556a2c11559fe25a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136788060,
+        "stop" : 1669136790432,
+        "duration" : 2372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14b89cc3b3cd989556a2c11559fe25a9"
+  }, {
+    "name" : "Verify the 'Se alle nyheter' button ",
+    "children" : [ {
+      "name" : "Verify the 'Se alle nyheter' button",
+      "uid" : "342266fd17615e94",
+      "parentUid" : "596dd741b3c943556160ce80b4984cb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136845971,
+        "stop" : 1669136854143,
+        "duration" : 8172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "596dd741b3c943556160ce80b4984cb6"
+  }, {
+    "name" : "Check the product visiblility at homepage",
+    "children" : [ {
+      "name" : "Verify the 'Nyheter' text is visible",
+      "uid" : "cf61b2d79fc42ea0",
+      "parentUid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136899283,
+        "stop" : 1669136900569,
+        "duration" : 1286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the product image",
+      "uid" : "365559c66183cce5",
+      "parentUid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136901269,
+        "stop" : 1669136910252,
+        "duration" : 8983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the product title",
+      "uid" : "d4774e54d4eed9f1",
+      "parentUid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136910514,
+        "stop" : 1669136923819,
+        "duration" : 13305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the product price",
+      "uid" : "1542bf99e9f2bd24",
+      "parentUid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136924194,
+        "stop" : 1669136926271,
+        "duration" : 2077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the select option",
+      "uid" : "274c7fb8b460618f",
+      "parentUid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669136926556,
+        "stop" : 1669136935148,
+        "duration" : 8592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'add to wishlist' hyperlink",
+      "uid" : "5b242f012fd20b24",
+      "parentUid" : "fb3d741a0fce56e4e3f89eb214df32e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669136935385,
+        "stop" : 1669136950315,
+        "duration" : 14930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb3d741a0fce56e4e3f89eb214df32e4"
+  }, {
+    "name" : "Check the 'Utvalgte kategorier' section",
+    "children" : [ {
+      "name" : "Check the 'Utvalgte kategorier' section is visible",
+      "uid" : "a31601527ab31bf6",
+      "parentUid" : "9996f84ca50e17e2e35bb94040ab53c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137017091,
+        "stop" : 1669137017983,
+        "duration" : 892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Barnesko' category is visible",
+      "uid" : "87c705590fb14a19",
+      "parentUid" : "9996f84ca50e17e2e35bb94040ab53c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137019670,
+        "stop" : 1669137021999,
+        "duration" : 2329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Barneklær' category is visible",
+      "uid" : "202552acb63439d6",
+      "parentUid" : "9996f84ca50e17e2e35bb94040ab53c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137022042,
+        "stop" : 1669137023126,
+        "duration" : 1084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Bilstoler' category is visible",
+      "uid" : "418cec37dc379d25",
+      "parentUid" : "9996f84ca50e17e2e35bb94040ab53c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137023151,
+        "stop" : 1669137024164,
+        "duration" : 1013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9996f84ca50e17e2e35bb94040ab53c8"
+  }, {
+    "name" : "Check the 'Carousel Slider' section",
+    "children" : [ {
+      "name" : "Verify the carousel slider is visible",
+      "uid" : "6bbe46eed74afab2",
+      "parentUid" : "449ecced744bed1657f2aba6f8cca638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137060220,
+        "stop" : 1669137061074,
+        "duration" : 854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the header 'title' is visible",
+      "uid" : "6ba5f9d99c935e03",
+      "parentUid" : "449ecced744bed1657f2aba6f8cca638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137061807,
+        "stop" : 1669137063880,
+        "duration" : 2073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Kjøp Nå' button is visible",
+      "uid" : "558f7d1b4b613584",
+      "parentUid" : "449ecced744bed1657f2aba6f8cca638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137063913,
+        "stop" : 1669137064334,
+        "duration" : 421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "449ecced744bed1657f2aba6f8cca638"
+  }, {
+    "name" : "Check the 'Tips og Råd' section",
+    "children" : [ {
+      "name" : "Check the 'Tips og Råd' sction title name",
+      "uid" : "6a993dbdb375407b",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137089659,
+        "stop" : 1669137091055,
+        "duration" : 1396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog image & title name",
+      "uid" : "b454d7331f3ffa61",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137092821,
+        "stop" : 1669137099115,
+        "duration" : 6294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog description",
+      "uid" : "e2f05cd459fdcf4b",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137099284,
+        "stop" : 1669137100112,
+        "duration" : 828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog previous button",
+      "uid" : "865f22d82ed195e8",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137100197,
+        "stop" : 1669137100314,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog next button",
+      "uid" : "d25b613ee10b0109",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137100318,
+        "stop" : 1669137100406,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog comment title",
+      "uid" : "dc1a2e09d3bf8db1",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137100444,
+        "stop" : 1669137100808,
+        "duration" : 364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog comment box",
+      "uid" : "c8444612b94aa47d",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137100817,
+        "stop" : 1669137107074,
+        "duration" : 6257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog name box",
+      "uid" : "9f389cbb1653783c",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137114372,
+        "stop" : 1669137117569,
+        "duration" : 3197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog comment check box",
+      "uid" : "6da480bf966f2d2f",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137117765,
+        "stop" : 1669137119224,
+        "duration" : 1459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check the blog 'post comment' button",
+      "uid" : "7e49e82024b23dbb",
+      "parentUid" : "10cceb95eb38681af2dfaff2cdc6a552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137119323,
+        "stop" : 1669137123238,
+        "duration" : 3915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "10cceb95eb38681af2dfaff2cdc6a552"
+  }, {
+    "name" : "Verify the 'Følg MooLeker på Instagram' section",
+    "children" : [ {
+      "name" : "Verify the 'Følg MooLeker på Instagram' text is visible",
+      "uid" : "f0d238620e4a6cbe",
+      "parentUid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137180520,
+        "stop" : 1669137182766,
+        "duration" : 2246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the header 'Følg MooLeker på Instagram' image is visible",
+      "uid" : "c6e94ca346ea36b9",
+      "parentUid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137184340,
+        "stop" : 1669137185327,
+        "duration" : 987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the footer '1st' block",
+      "uid" : "f342cf37c729a568",
+      "parentUid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137297466,
+        "stop" : 1669137305840,
+        "duration" : 8374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the footer '2nd' block",
+      "uid" : "3f6cd5150b91184",
+      "parentUid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137306007,
+        "stop" : 1669137310523,
+        "duration" : 4516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the footer '3rd' block",
+      "uid" : "8e9acebb0803049a",
+      "parentUid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137311232,
+        "stop" : 1669137316367,
+        "duration" : 5135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the footer '4th' block",
+      "uid" : "f462df981deea941",
+      "parentUid" : "90028ac0a5ef1fcc4a877930cf798d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137316383,
+        "stop" : 1669137320337,
+        "duration" : 3954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "90028ac0a5ef1fcc4a877930cf798d3a"
+  }, {
+    "name" : "Verify the 'Subscribe' option",
+    "children" : [ {
+      "name" : "Verify the 'Email' & Singnup",
+      "uid" : "d628f16df636e807",
+      "parentUid" : "73939063bd438b2b815e788165e42313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137230797,
+        "stop" : 1669137249223,
+        "duration" : 18426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "73939063bd438b2b815e788165e42313"
+  }, {
+    "name" : "Verify the product filtering",
+    "children" : [ {
+      "name" : "Verify the product filtering",
+      "uid" : "5c438ac2f8a92de6",
+      "parentUid" : "fd0c485b06f67571d1bd96315253ae2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137370739,
+        "stop" : 1669137392290,
+        "duration" : 21551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fd0c485b06f67571d1bd96315253ae2f"
+  }, {
+    "name" : "Check the product filtering category ",
+    "children" : [ {
+      "name" : "Verify the 'Ukategorisert' product category filtering",
+      "uid" : "d11563b6482d0a7e",
+      "parentUid" : "7782a9e0659096f3d543a369a147226e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137508353,
+        "stop" : 1669137550398,
+        "duration" : 42045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'AeroMoov' product category filtering",
+      "uid" : "620ec846b1cbb128",
+      "parentUid" : "7782a9e0659096f3d543a369a147226e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669137550706,
+        "stop" : 1669137591092,
+        "duration" : 40386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Kavat' product category filtering",
+      "uid" : "7d90d9edcafbb669",
+      "parentUid" : "7782a9e0659096f3d543a369a147226e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669137591293,
+        "stop" : 1669137621731,
+        "duration" : 30438
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the 'Kuling' product category filtering",
+      "uid" : "dcc4695ceca1554f",
+      "parentUid" : "7782a9e0659096f3d543a369a147226e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669137621881,
+        "stop" : 1669137647948,
+        "duration" : 26067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7782a9e0659096f3d543a369a147226e"
+  }, {
+    "name" : "Verify product information page ",
+    "children" : [ {
+      "name" : "Verify product information page",
+      "uid" : "ec08893974db98f7",
+      "parentUid" : "7bc2f678be6d668237cbd5c1d8b33977",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669137930525,
+        "stop" : 1669137949254,
+        "duration" : 18729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7bc2f678be6d668237cbd5c1d8b33977"
+  } ]
+}
