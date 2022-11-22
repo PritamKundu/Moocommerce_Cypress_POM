@@ -13,8 +13,14 @@
     "cypress": "^10.10.0",
     "cypress-real-events": "^1.7.4",
     "@shelex/cypress-allure-plugin": "^2.34.0",
+<<<<<<< HEAD
     "cypress-xpath": "^2.0.1" 
 } <br>
+=======
+    "cypress-xpath": "^2.0.1"   
+} 
+<br>
+>>>>>>> 00cc7adce5574fb894e3cc78ad9227c32303ae5a
 * IDE: Visual Studio Code <br>
 
 ----------------------------------------------------------
@@ -46,8 +52,14 @@
 ----------------------------------------------------------
 
 ## Allure Report view from browser:
-
 <p align="center"> <img src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture.PNG" alt="pritamkundu" />
 <p align="center"> <img src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture2.PNG" alt="pritamkundu" />
 <p align="center"> <img src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture3.PNG" alt="pritamkundu" />
 
+<<<<<<< HEAD
+<p align="center"> <img src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture.PNG" alt="pritamkundu" />
+<p align="center"> <img src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture2.PNG" alt="pritamkundu" />
+<p align="center"> <img src="https://github.com/PritamKundu/PritamKundu/blob/main/moocommerce-screenshot-allure/Capture3.PNG" alt="pritamkundu" />
+
+=======
+>>>>>>> 00cc7adce5574fb894e3cc78ad9227c32303ae5a
