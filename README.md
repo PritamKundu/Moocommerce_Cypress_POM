@@ -14,6 +14,7 @@
     "cypress-real-events": "^1.7.4",
     "@shelex/cypress-allure-plugin": "^2.34.0",
 } <br>
+
 * IDE: Visual Studio Code <br>
 
 ----------------------------------------------------------
