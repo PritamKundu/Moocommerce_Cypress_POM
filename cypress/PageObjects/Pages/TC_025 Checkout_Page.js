@@ -63,7 +63,6 @@ export class Checkout {
     cy.xpath(size_title).should('be.visible')
     cy.xpath(size_title).invoke('text').should('eq', 'size')
 
-    
     /* Verify product size*/
     cy.get(size).select(act_size, { force: true })
     cy.wait(2000)
