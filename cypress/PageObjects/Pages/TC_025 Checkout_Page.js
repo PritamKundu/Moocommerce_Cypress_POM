@@ -59,7 +59,6 @@ export class Checkout {
     /* Verify product price*/
     cy.xpath(product_price).should('be.visible')
 
-    
     /* Verify product size title*/
     cy.xpath(size_title).should('be.visible')
     cy.xpath(size_title).invoke('text').should('eq', 'size')
