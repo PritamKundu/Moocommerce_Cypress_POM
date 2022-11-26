@@ -56,7 +56,6 @@ export class Checkout {
     /* Verify product category*/
     cy.get(product_category).should('be.visible')
 
-    
     /* Verify product price*/
     cy.xpath(product_price).should('be.visible')
 
