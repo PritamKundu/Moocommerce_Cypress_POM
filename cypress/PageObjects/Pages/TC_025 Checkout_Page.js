@@ -30,6 +30,7 @@ const total = "(//th[contains(text(),'Totalt')])[1]"
 const order_comments = '#order_comments'
 
 
+
 /*Class & Function*/
 export class Checkout {
   verifyCheckout(product_number, act_prd_title, act_size) {
