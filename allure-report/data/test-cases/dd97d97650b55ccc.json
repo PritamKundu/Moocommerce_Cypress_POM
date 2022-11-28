@@ -1,0 +1,220 @@
+{
+  "uid" : "dd97d97650b55ccc",
+  "name" : "Verify the 'Legg i handlekurv' icon at Navbar",
+  "fullName" : "Verify the 'Legg i handlekurv' icon at Navbar",
+  "historyId" : "2f8b770a928d3a1706570f7c56382e3b",
+  "time" : {
+    "start" : 1669623260280,
+    "stop" : 1669623265346,
+    "duration" : 5066
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `(//i[@class=\"moocommerce-icon moo-icon-shopping-cart \"])[1]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//i[@class=\"moocommerce-icon moo-icon-shopping-cart \"])[1]`, but never found it.\n    at Addtocart.verifyAddtocartIcon (webpack:///./cypress/PageObjects/Pages/TC_007 Addtocart_Icon_Page.js:11:29)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_007 Addtocart_Icon_Test.js:11:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623255324,
+        "stop" : 1669623260265,
+        "duration" : 4941
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623255333,
+          "stop" : 1669623259899,
+          "duration" : 4566
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623259899,
+          "stop" : 1669623259936,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623260028,
+          "stop" : 1669623260028,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623260028,
+          "stop" : 1669623260265,
+          "duration" : 237
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623260265,
+          "stop" : 1669623260265,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `(//i[@class=\"moocommerce-icon moo-icon-shopping-cart \"])[1]`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//i[@class=\"moocommerce-icon moo-icon-shopping-cart \"])[1]`, but never found it.\n    at Addtocart.verifyAddtocartIcon (webpack:///./cypress/PageObjects/Pages/TC_007 Addtocart_Icon_Page.js:11:29)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_007 Addtocart_Icon_Test.js:11:14)",
+    "steps" : [ {
+      "name" : "assert expected **(//i[@class=\"moocommerce-icon moo-icon-shopping-cart \"])[1]** to be **visible**",
+      "time" : {
+        "start" : 1669623260628,
+        "stop" : 1669623265334,
+        "duration" : 4706
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 /?wc-ajax=get_refreshed_fragments",
+      "time" : {
+        "start" : 1669623265333,
+        "stop" : 1669623265333,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 /?wc-ajax=tinvwl",
+      "time" : {
+        "start" : 1669623265334,
+        "stop" : 1669623265334,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "83683f40a937de58",
+      "name" : "cypress/e2e/Test/TC_007 Addtocart_Icon_Test.js:2022-11-28T08:14:24.730Z",
+      "source" : "83683f40a937de58.png",
+      "type" : "image/png",
+      "size" : 421254
+    }, {
+      "uid" : "d78a555f9fe1503",
+      "name" : "video recording",
+      "source" : "d78a555f9fe1503.mp4",
+      "type" : "video/mp4",
+      "size" : 809384
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify the 'Legg i handlekurv' icon at Navbar"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd97d97650b55ccc.json",
+  "parameterValues" : [ ]
+}

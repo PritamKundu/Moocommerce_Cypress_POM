@@ -1,0 +1,215 @@
+{
+  "uid" : "f0f45cf508c91b89",
+  "name" : "Check the blog comment title",
+  "fullName" : "Check the blog comment title",
+  "historyId" : "f2f412c6e27c94ae339aa990f740c4c6",
+  "time" : {
+    "start" : 1669623496632,
+    "stop" : 1669623496821,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623483574,
+        "stop" : 1669623486261,
+        "duration" : 2687
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623483580,
+          "stop" : 1669623486130,
+          "duration" : 2550
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623486131,
+          "stop" : 1669623486143,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623486162,
+          "stop" : 1669623486162,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623486162,
+          "stop" : 1669623486261,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623486260,
+          "stop" : 1669623486260,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **<h3#reply-title.comment-reply-title>** to be **visible**",
+      "time" : {
+        "start" : 1669623496782,
+        "stop" : 1669623496798,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "xpath //h3[@id='reply-title']",
+      "time" : {
+        "start" : 1669623496798,
+        "stop" : 1669623496798,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h3#reply-title.comment-reply-title>** to have CSS property **color** with the value **rgb(58, 58, 58)**",
+      "time" : {
+        "start" : 1669623496798,
+        "stop" : 1669623496814,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "xpath //h3[@id='reply-title']",
+      "time" : {
+        "start" : 1669623496814,
+        "stop" : 1669623496814,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check the 'Tips og Råd' section"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0f45cf508c91b89.json",
+  "parameterValues" : [ ]
+}

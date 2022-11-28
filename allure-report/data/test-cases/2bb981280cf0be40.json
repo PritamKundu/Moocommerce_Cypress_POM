@@ -1,0 +1,281 @@
+{
+  "uid" : "2bb981280cf0be40",
+  "name" : "Verify 'Barneklær' category icon & text",
+  "fullName" : "Verify 'Barneklær' category icon & text",
+  "historyId" : "cc39a3e144bc68018532db5ed8b91158",
+  "time" : {
+    "start" : 1669623375204,
+    "stop" : 1669623377436,
+    "duration" : 2232
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623365969,
+        "stop" : 1669623370349,
+        "duration" : 4380
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623365977,
+          "stop" : 1669623370187,
+          "duration" : 4210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623370187,
+          "stop" : 1669623370197,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623370250,
+          "stop" : 1669623370251,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623370251,
+          "stop" : 1669623370349,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623370348,
+          "stop" : 1669623370348,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **<figure.wp-block-image.aligncenter.size-large>** to be **visible**",
+      "time" : {
+        "start" : 1669623375306,
+        "stop" : 1669623375327,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "xpath (//figure[@class=\"wp-block-image aligncenter size-large\"])[1]",
+      "time" : {
+        "start" : 1669623375327,
+        "stop" : 1669623375327,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<figcaption>** to be **visible**",
+      "time" : {
+        "start" : 1669623375327,
+        "stop" : 1669623375360,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "xpath //figcaption[contains(text(),\"Barneklær\")]",
+      "time" : {
+        "start" : 1669623375360,
+        "stop" : 1669623375360,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "xpath //figcaption[contains(text(),\"Barneklær\")]",
+      "time" : {
+        "start" : 1669623375360,
+        "stop" : 1669623375367,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke .text()",
+      "time" : {
+        "start" : 1669623375368,
+        "stop" : 1669623375386,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **Barneklær** to equal **Barneklær**",
+      "time" : {
+        "start" : 1669623375389,
+        "stop" : 1669623375389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Barneklær"
+      }, {
+        "name" : "expected",
+        "value" : "Barneklær"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait 2000",
+      "time" : {
+        "start" : 1669623375390,
+        "stop" : 1669623377435,
+        "duration" : 2045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify All categories icon & text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bb981280cf0be40.json",
+  "parameterValues" : [ ]
+}

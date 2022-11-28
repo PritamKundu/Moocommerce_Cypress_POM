@@ -1,0 +1,235 @@
+{
+  "uid" : "80d50c4239ee8c8c",
+  "name" : "Verify the select option",
+  "fullName" : "Verify the select option",
+  "historyId" : "d3ea1a48cd2ee35084fc3f382d14c1cb",
+  "time" : {
+    "start" : 1669623427887,
+    "stop" : 1669623432521,
+    "duration" : 4634
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `(//a[@class=\"button product_type_variable add_to_cart_button \"])[1]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//a[@class=\"button product_type_variable add_to_cart_button \"])[1]`, but never found it.\n    at ProductCheck.verifySelectOption (webpack:///./cypress/PageObjects/Pages/TC_013 Product_Check_Page.js:57:28)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_013 Product_Check_Test.js:27:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623413905,
+        "stop" : 1669623416910,
+        "duration" : 3005
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623413912,
+          "stop" : 1669623416620,
+          "duration" : 2708
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623416621,
+          "stop" : 1669623416639,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623416685,
+          "stop" : 1669623416688,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623416689,
+          "stop" : 1669623416910,
+          "duration" : 221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623416908,
+          "stop" : 1669623416908,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `(//a[@class=\"button product_type_variable add_to_cart_button \"])[1]`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//a[@class=\"button product_type_variable add_to_cart_button \"])[1]`, but never found it.\n    at ProductCheck.verifySelectOption (webpack:///./cypress/PageObjects/Pages/TC_013 Product_Check_Page.js:57:28)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_013 Product_Check_Test.js:27:19)",
+    "steps" : [ {
+      "name" : "assert expected **(//a[@class=\"button product_type_variable add_to_cart_button \"])[1]** to be **visible**",
+      "time" : {
+        "start" : 1669623428058,
+        "stop" : 1669623432519,
+        "duration" : 4461
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://mooleker.moocommerce.no/",
+      "time" : {
+        "start" : 1669623432518,
+        "stop" : 1669623432518,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 /?wc-ajax=get_refreshed_fragments",
+      "time" : {
+        "start" : 1669623432519,
+        "stop" : 1669623432519,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 /?wc-ajax=tinvwl",
+      "time" : {
+        "start" : 1669623432519,
+        "stop" : 1669623432519,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fd9c0c16eadc16fd",
+      "name" : "cypress/e2e/Test/TC_013 Product_Check_Test.js:2022-11-28T08:17:12.129Z",
+      "source" : "fd9c0c16eadc16fd.png",
+      "type" : "image/png",
+      "size" : 184488
+    }, {
+      "uid" : "862fe2d7a453a524",
+      "name" : "video recording",
+      "source" : "862fe2d7a453a524.mp4",
+      "type" : "video/mp4",
+      "size" : 2314370
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check the product visiblility at homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "80d50c4239ee8c8c.json",
+  "parameterValues" : [ ]
+}

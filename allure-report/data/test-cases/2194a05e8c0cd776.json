@@ -1,0 +1,265 @@
+{
+  "uid" : "2194a05e8c0cd776",
+  "name" : "Verify the 'Kategorier' text is visible",
+  "fullName" : "Verify the 'Kategorier' text is visible",
+  "historyId" : "dfa27bfb117aab9d9c8bde9516e8dc57",
+  "time" : {
+    "start" : 1669623370354,
+    "stop" : 1669623375062,
+    "duration" : 4708
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'\n    at Categories.verifySectionTitle (webpack:///./cypress/PageObjects/Pages/TC_011 Category_Page.js:10:25)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_011 Category_Test.js:11:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623365969,
+        "stop" : 1669623370349,
+        "duration" : 4380
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623365977,
+          "stop" : 1669623370187,
+          "duration" : 4210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623370187,
+          "stop" : 1669623370197,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623370250,
+          "stop" : 1669623370251,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623370251,
+          "stop" : 1669623370349,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623370348,
+          "stop" : 1669623370348,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'\n    at Categories.verifySectionTitle (webpack:///./cypress/PageObjects/Pages/TC_011 Category_Page.js:10:25)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_011 Category_Test.js:11:13)",
+    "steps" : [ {
+      "name" : "xpath //h2[normalize-space()='Kategorier']",
+      "time" : {
+        "start" : 1669623370436,
+        "stop" : 1669623370460,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "scrollIntoView",
+      "time" : {
+        "start" : 1669623370460,
+        "stop" : 1669623370621,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h2.has-text-align-center>** to be **visible**",
+      "time" : {
+        "start" : 1669623370620,
+        "stop" : 1669623370620,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h2.has-text-align-center>** to have CSS property **color** with the value **rgb(0, 0, 0)**, but the value was **rgb(58, 58, 58)**",
+      "time" : {
+        "start" : 1669623370621,
+        "stop" : 1669623375059,
+        "duration" : 4438
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /?wc-ajax=get_refreshed_fragments",
+      "time" : {
+        "start" : 1669623375059,
+        "stop" : 1669623375059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /?wc-ajax=tinvwl",
+      "time" : {
+        "start" : 1669623375059,
+        "stop" : 1669623375059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5e26525008c2a3de",
+      "name" : "cypress/e2e/Test/TC_011 Category_Test.js:2022-11-28T08:16:14.703Z",
+      "source" : "5e26525008c2a3de.png",
+      "type" : "image/png",
+      "size" : 161135
+    }, {
+      "uid" : "3807be4902002772",
+      "name" : "video recording",
+      "source" : "3807be4902002772.mp4",
+      "type" : "video/mp4",
+      "size" : 2033967
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify All categories icon & text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2194a05e8c0cd776.json",
+  "parameterValues" : [ ]
+}

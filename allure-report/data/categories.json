@@ -4,16 +4,117 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected '<a.button.product_type_variable.add_to_cart_button.>' to have CSS property 'border-color' with the value 'rgb(229, 171, 171)', but the value was 'rgb(200, 200, 200)'",
+      "name" : "Timed out retrying after 4000ms: expected '<input.search-field>' to be 'visible'\n\nThis element `<input.search-field>` is not visible because its parent `<label>` has CSS property: `visibility: hidden`",
+      "children" : [ {
+        "name" : "Verify 'Search' option is visible or not",
+        "uid" : "b03908e9f0d85952",
+        "parentUid" : "35c7c7c13e41ef24e42a8706cdefa2a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623212802,
+          "stop" : 1669623217653,
+          "duration" : 4851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35c7c7c13e41ef24e42a8706cdefa2a5"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `(//i[@class=\"moocommerce-icon moo-icon-shopping-cart \"])[1]`, but never found it.",
+      "children" : [ {
+        "name" : "Verify the 'Legg i handlekurv' icon at Navbar",
+        "uid" : "dd97d97650b55ccc",
+        "parentUid" : "7495728bfc5a185c595658a62cb72df4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623260280,
+          "stop" : 1669623265346,
+          "duration" : 5066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7495728bfc5a185c595658a62cb72df4"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'",
+      "children" : [ {
+        "name" : "Verify the 'Kategorier' text is visible",
+        "uid" : "2194a05e8c0cd776",
+        "parentUid" : "c835ec58b2153ccb84f9f5eb5bdb0095",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623370354,
+          "stop" : 1669623375062,
+          "duration" : 4708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify the 'Følg MooLeker på Instagram' text is visible",
+        "uid" : "674f8294d09fd33a",
+        "parentUid" : "c835ec58b2153ccb84f9f5eb5bdb0095",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623537879,
+          "stop" : 1669623542747,
+          "duration" : 4868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c835ec58b2153ccb84f9f5eb5bdb0095"
+    }, {
+      "name" : "expected '<a.uagb-buttons-repeater.wp-block-button__link.has-background.has-text-color>' to have CSS property 'background-color' with the value 'rgb(200, 200, 200)', but the value was 'rgb(229, 171, 171)'",
+      "children" : [ {
+        "name" : "Verify the 'Se alle nyheter' button",
+        "uid" : "4237280afd498b4d",
+        "parentUid" : "51c2a4091941a57caabdce5f6e087c68",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623401250,
+          "stop" : 1669623403544,
+          "duration" : 2294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51c2a4091941a57caabdce5f6e087c68"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `(//a[@class=\"button product_type_variable add_to_cart_button \"])[1]`, but never found it.",
       "children" : [ {
         "name" : "Verify the select option",
-        "uid" : "274c7fb8b460618f",
-        "parentUid" : "a35981e2fdfbbb8951f48b5af04304fc",
+        "uid" : "80d50c4239ee8c8c",
+        "parentUid" : "a8e3f7a636f24294143d4754c5e3847f",
         "status" : "failed",
         "time" : {
-          "start" : 1669136926556,
-          "stop" : 1669136935148,
-          "duration" : 8592
+          "start" : 1669623427887,
+          "stop" : 1669623432521,
+          "duration" : 4634
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,18 +124,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a35981e2fdfbbb8951f48b5af04304fc"
+      "uid" : "a8e3f7a636f24294143d4754c5e3847f"
     }, {
-      "name" : "Timed out retrying after 4050ms: `cy.click()` could not be issued because this element is currently animating:\n\n`<div class=\"iradio_square-blue\" style=\"position: relative;\">...</div>`\n\nYou can fix this problem by:\n  - Passing `{force: true}` which disables all error checking\n  - Passing `{waitForAnimations: false}` which disables waiting on animations\n  - Passing `{animationDistanceThreshold: 20}` which decreases the sensitivity\n\nhttps://on.cypress.io/element-is-animating",
+      "name" : "Timed out retrying after 10000ms: Expected to find element: `//div[@class=\"wp-block-cover alignfull is-light has-parallax lazy\"]`, but never found it.",
       "children" : [ {
-        "name" : "Verify the 'Kavat' product category filtering",
-        "uid" : "7d90d9edcafbb669",
-        "parentUid" : "9503e25290875f184db3850f22b8f554",
+        "name" : "Verify the carousel slider is visible",
+        "uid" : "fa341763c9918df8",
+        "parentUid" : "81c6b9940ebce68184752053f756df6c",
         "status" : "failed",
         "time" : {
-          "start" : 1669137591293,
-          "stop" : 1669137621731,
-          "duration" : 30438
+          "start" : 1669623462742,
+          "stop" : 1669623473450,
+          "duration" : 10708
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,18 +145,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9503e25290875f184db3850f22b8f554"
+      "uid" : "81c6b9940ebce68184752053f756df6c"
     }, {
-      "name" : "Timed out retrying after 10000ms: Expected to find element: `(//div[@class=\"iradio_square-blue\"])[4]`, but never found it.",
+      "name" : "Timed out retrying after 4000ms: expected '<h2.uagb-heading-text>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'",
       "children" : [ {
-        "name" : "Verify the 'Kuling' product category filtering",
-        "uid" : "dcc4695ceca1554f",
-        "parentUid" : "0086e1ed224f619a75e5436a58ecf8e0",
+        "name" : "Check the 'Tips og Råd' sction title name",
+        "uid" : "d311862ba9360117",
+        "parentUid" : "9f2b6863dbfc6a1de4fe0d867bb0b504",
         "status" : "failed",
         "time" : {
-          "start" : 1669137621881,
-          "stop" : 1669137647948,
-          "duration" : 26067
+          "start" : 1669623486274,
+          "stop" : 1669623491479,
+          "duration" : 5205
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,29 +166,159 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0086e1ed224f619a75e5436a58ecf8e0"
+      "uid" : "9f2b6863dbfc6a1de4fe0d867bb0b504"
     }, {
-      "name" : "Timed out retrying after 4000ms: expected '<img.wp-post-image>' to be 'visible'\n\nThis element `<img.wp-post-image>` is not visible because its parent `<div.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images>` has CSS property: `opacity: 0`",
+      "name" : "expected '← Forrige Innlegg' to equal '← Previous Innlegg'",
+      "children" : [ {
+        "name" : "Check the blog previous button",
+        "uid" : "d34b8dfbf77c22f2",
+        "parentUid" : "81a0722addb82d0de8911c542d045948",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623495278,
+          "stop" : 1669623495765,
+          "duration" : 487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81a0722addb82d0de8911c542d045948"
+    }, {
+      "name" : "expected 'Neste Innlegg →' to equal 'Next Innlegg →'",
+      "children" : [ {
+        "name" : "Check the blog next button",
+        "uid" : "de5616160069e7e6",
+        "parentUid" : "3e70ca8716965a99b27a062995463f22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623495823,
+          "stop" : 1669623496537,
+          "duration" : 714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e70ca8716965a99b27a062995463f22"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected '<input#url>' to have attribute 'placeholder' with the value 'Website', but the value was 'Webside'",
+      "children" : [ {
+        "name" : "Check the blog name box",
+        "uid" : "f738ff343f729438",
+        "parentUid" : "a13eff2f9b921a9bb9dab04910eb4d90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623509485,
+          "stop" : 1669623514640,
+          "duration" : 5155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a13eff2f9b921a9bb9dab04910eb4d90"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected '<input#submit.submit>' to have attribute 'value' with the value 'Post Comment »', but the value was 'Innleggskommentarer »'",
+      "children" : [ {
+        "name" : "Check the blog 'post comment' button",
+        "uid" : "703f484af8d7a482",
+        "parentUid" : "d919f161d6c544743597e19776b4f2ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623516334,
+          "stop" : 1669623521203,
+          "duration" : 4869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d919f161d6c544743597e19776b4f2ed"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#minus_qty`, but never found it.",
       "children" : [ {
         "name" : "Verify product information page",
-        "uid" : "ec08893974db98f7",
-        "parentUid" : "6cf542c5e33a3f0f504cb1b4830d3127",
+        "uid" : "eb7a09323f1f72e1",
+        "parentUid" : "a94d062108fd5d2b16d60de0e21a4291",
         "status" : "failed",
         "time" : {
-          "start" : 1669137930525,
-          "stop" : 1669137949254,
-          "duration" : 18729
+          "start" : 1669623711002,
+          "stop" : 1669623727476,
+          "duration" : 16474
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6cf542c5e33a3f0f504cb1b4830d3127"
+      "uid" : "a94d062108fd5d2b16d60de0e21a4291"
+    }, {
+      "name" : "expected '<button.button>' to have CSS property 'background-color' with the value 'rgb(229, 171, 171)', but the value was 'rgb(200, 200, 200)'",
+      "children" : [ {
+        "name" : "Verify product add to cart page",
+        "uid" : "6557884a13acfadf",
+        "parentUid" : "7dd0fb1740bceaebe0fab4fd6c48a476",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669623740930,
+          "stop" : 1669623797523,
+          "duration" : 56593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7dd0fb1740bceaebe0fab4fd6c48a476"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file:\n\n  > cypress\\e2e\\Test\\TC_014 Selected_Categories_Test.js\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: cypress/e2e/Test/TC_014 Selected_Categories_Test.js",
+        "uid" : "c64fbec163a40db9",
+        "parentUid" : "0bd208e00eb9462a722c727271e7c574",
+        "status" : "broken",
+        "time" : {
+          "start" : 1669623454692,
+          "stop" : 1669623454692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0bd208e00eb9462a722c727271e7c574"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

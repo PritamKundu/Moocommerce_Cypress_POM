@@ -1,0 +1,265 @@
+{
+  "uid" : "674f8294d09fd33a",
+  "name" : "Verify the 'Følg MooLeker på Instagram' text is visible",
+  "fullName" : "Verify the 'Følg MooLeker på Instagram' text is visible",
+  "historyId" : "11adc22636c48d95aaa526549c10b140",
+  "time" : {
+    "start" : 1669623537879,
+    "stop" : 1669623542747,
+    "duration" : 4868
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'\n    at Categories.verifySectionTitle (webpack:///./cypress/PageObjects/Pages/TC_011 Category_Page.js:10:25)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_018 Instagram_Image_Test.js:14:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623535366,
+        "stop" : 1669623537876,
+        "duration" : 2510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623535369,
+          "stop" : 1669623537711,
+          "duration" : 2342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623537711,
+          "stop" : 1669623537728,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623537759,
+          "stop" : 1669623537759,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623537759,
+          "stop" : 1669623537876,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623537876,
+          "stop" : 1669623537876,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<h2.has-text-align-center>' to have CSS property 'color' with the value 'rgb(0, 0, 0)', but the value was 'rgb(58, 58, 58)'\n    at Categories.verifySectionTitle (webpack:///./cypress/PageObjects/Pages/TC_011 Category_Page.js:10:25)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_018 Instagram_Image_Test.js:14:13)",
+    "steps" : [ {
+      "name" : "xpath //h2[normalize-space()='Følg MooLeker på Instagram']",
+      "time" : {
+        "start" : 1669623537975,
+        "stop" : 1669623538017,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "scrollIntoView",
+      "time" : {
+        "start" : 1669623538017,
+        "stop" : 1669623538113,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h2.has-text-align-center>** to be **visible**",
+      "time" : {
+        "start" : 1669623538112,
+        "stop" : 1669623538112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<h2.has-text-align-center>** to have CSS property **color** with the value **rgb(0, 0, 0)**, but the value was **rgb(58, 58, 58)**",
+      "time" : {
+        "start" : 1669623538113,
+        "stop" : 1669623542744,
+        "duration" : 4631
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /?wc-ajax=get_refreshed_fragments",
+      "time" : {
+        "start" : 1669623542743,
+        "stop" : 1669623542743,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /?wc-ajax=tinvwl",
+      "time" : {
+        "start" : 1669623542744,
+        "stop" : 1669623542744,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "326f94b7e7eda79f",
+      "name" : "cypress/e2e/Test/TC_018 Instagram_Image_Test.js:2022-11-28T08:19:02.198Z",
+      "source" : "326f94b7e7eda79f.png",
+      "type" : "image/png",
+      "size" : 270208
+    }, {
+      "uid" : "e05f2e59695be06b",
+      "name" : "video recording",
+      "source" : "e05f2e59695be06b.mp4",
+      "type" : "video/mp4",
+      "size" : 838882
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify the 'Følg MooLeker på Instagram' section"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "674f8294d09fd33a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,229 @@
+{
+  "uid" : "da8d87590d2d76d9",
+  "name" : "Check the blog name box",
+  "fullName" : "Check the blog name box",
+  "historyId" : "16691c4d68f0a051ce4eda3207203ee0",
+  "time" : {
+    "start" : 1669623499226,
+    "stop" : 1669623504168,
+    "duration" : 4942
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<input#author>' to have attribute 'placeholder' with the value 'Name*', but the value was 'Navn*'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<input#author>' to have attribute 'placeholder' with the value 'Name*', but the value was 'Navn*'\n    at TipsAndDevice.verifyBlogNameBox (webpack:///./cypress/PageObjects/Pages/TC_017 Tips_And Advice_Page.js:94:23)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_017 Tips_And Advice_Test.js:42:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openUrl",
+      "time" : {
+        "start" : 1669623483574,
+        "stop" : 1669623486261,
+        "duration" : 2687
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://mooleker.moocommerce.no/",
+        "time" : {
+          "start" : 1669623483580,
+          "stop" : 1669623486130,
+          "duration" : 2550
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669623486131,
+          "stop" : 1669623486143,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **https://mooleker.moocommerce.no/** to equal **https://mooleker.moocommerce.no/**",
+        "time" : {
+          "start" : 1669623486162,
+          "stop" : 1669623486162,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://mooleker.moocommerce.no/"
+        }, {
+          "name" : "expected",
+          "value" : "https://mooleker.moocommerce.no/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<img.custom-logo.moocommerce-logo-svg>** to be **visible**",
+        "time" : {
+          "start" : 1669623486162,
+          "stop" : 1669623486261,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "xpath (//img[@alt='mooleker'])[1]",
+        "time" : {
+          "start" : 1669623486260,
+          "stop" : 1669623486260,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<input#author>' to have attribute 'placeholder' with the value 'Name*', but the value was 'Navn*'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<input#author>' to have attribute 'placeholder' with the value 'Name*', but the value was 'Navn*'\n    at TipsAndDevice.verifyBlogNameBox (webpack:///./cypress/PageObjects/Pages/TC_017 Tips_And Advice_Page.js:94:23)\n    at Context.eval (webpack:///./cypress/e2e/Test/TC_017 Tips_And Advice_Test.js:42:16)",
+    "steps" : [ {
+      "name" : "assert expected **<input#author>** to be **visible**",
+      "time" : {
+        "start" : 1669623499472,
+        "stop" : 1669623499503,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "xpath //input[@id='author']",
+      "time" : {
+        "start" : 1669623499502,
+        "stop" : 1669623499502,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **<input#author>** to have attribute **placeholder** with the value **Name***, but the value was **Navn***",
+      "time" : {
+        "start" : 1669623499503,
+        "stop" : 1669623504166,
+        "duration" : 4663
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "new url https://mooleker.moocommerce.no/2022/11/02/sminke-for-moden-hud-tips-triks/",
+      "time" : {
+        "start" : 1669623504166,
+        "stop" : 1669623504166,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6543f9c687bc0ea8",
+      "name" : "cypress/e2e/Test/TC_017 Tips_And Advice_Test.js:2022-11-28T08:18:23.552Z",
+      "source" : "6543f9c687bc0ea8.png",
+      "type" : "image/png",
+      "size" : 70104
+    }, {
+      "uid" : "1e12d9a25e18f96b",
+      "name" : "video recording",
+      "source" : "1e12d9a25e18f96b.mp4",
+      "type" : "video/mp4",
+      "size" : 2618964
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check the 'Tips og Råd' section"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da8d87590d2d76d9.json",
+  "parameterValues" : [ ]
+}
