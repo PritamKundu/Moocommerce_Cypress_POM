@@ -1,6 +1,7 @@
 ///<reference types="cypress-xpath"/>
 import "cypress-real-events";
 
+
 /* Locators */
 const main_image = ".wp-post-image"
 const product_title = 'h1[class="product_title entry-title"]'
