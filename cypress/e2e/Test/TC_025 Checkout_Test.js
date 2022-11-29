@@ -8,6 +8,7 @@ describe("Verify product checkout page ", () => {
     cy.viewport(1280, 720)
   });
 
+  
   it("Verify product checkout page", () => {
     checkout.verifyCheckout(2, 'Baby Body Lyse grønn', 'M')
   });
