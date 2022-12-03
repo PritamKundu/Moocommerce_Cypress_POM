@@ -9,11 +9,11 @@
 * Language: Javascript <br>
 * Report: Allure <br>
 * Project Structure: Page object Model(POM)<br>
-* Dependency/Packages:{
+* Dependency/Packages:{<br>
     "cypress": "^10.10.0", <br>
     "cypress-real-events": "^1.7.4", <br>
     "@shelex/cypress-allure-plugin": "^2.34.0", <br>
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1"<br>
 } <br>
 
 * IDE: Visual Studio Code <br>
