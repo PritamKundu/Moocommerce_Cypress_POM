@@ -16,7 +16,6 @@ describe("Check the product filtering category ", () => {
     product_catregory_filter.verifyProductCatergoryFilter('1', 'Ukategorisert')
   });
 
-  
   it("Verify the 'AeroMoov' product category filtering", () => {
     menu.verifyMenus("Nettbutikk", "shop/");
     product_catregory_filter.verifyProductCatergoryFilter('2', 'AeroMoov')
