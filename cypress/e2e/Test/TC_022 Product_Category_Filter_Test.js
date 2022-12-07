@@ -26,6 +26,7 @@ describe("Check the product filtering category ", () => {
     product_catregory_filter.verifyProductCatergoryFilter('3', 'Kavat')
   });
 
+  
   it("Verify the 'Kuling' product category filtering", () => {
     menu.verifyMenus("Nettbutikk", "shop/");
     product_catregory_filter.verifyProductCatergoryFilter('4', 'Kuling')
