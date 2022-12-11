@@ -12,6 +12,7 @@ export class Subscription {
 
   verifySubscription() {
  
+    
     /* Subscription Title */
     cy.xpath(subs_title).scrollIntoView().should("be.visible");
     cy.xpath(subs_title)
