@@ -11,6 +11,7 @@ const sign_up = '//input[@type="submit"]'
 export class Subscription {
 
   verifySubscription() {
+
     
     /* Subscription Title */
     cy.xpath(subs_title).scrollIntoView().should("be.visible");
