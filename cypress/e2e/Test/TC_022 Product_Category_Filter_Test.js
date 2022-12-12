@@ -11,6 +11,7 @@ describe("Check the product filtering category ", () => {
     cy.viewport(1280, 720)
   });
   
+  
   it("Verify the 'Ukategorisert' product category filtering", () => {
     menu.verifyMenus("Nettbutikk", "shop/");
     product_catregory_filter.verifyProductCatergoryFilter('1', 'Ukategorisert')
