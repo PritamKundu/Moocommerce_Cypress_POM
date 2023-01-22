@@ -12,6 +12,7 @@ describe("Verify All menus", () => {
     menus.verifyMenus("Hjem", "");
   });
 
+  
   it("Verify the 'Inspirasjon' menu ", () => {
     menus.verifyMenus("Inspirasjon", "inspirasjon/");
   });
