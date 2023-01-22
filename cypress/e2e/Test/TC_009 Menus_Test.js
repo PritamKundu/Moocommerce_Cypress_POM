@@ -1,4 +1,5 @@
 import { Menus } from "../../PageObjects/Pages/TC_009 Menus_Page ";
+import { Product_Page } from "../../PageObjects/Pages/TC_023 Product_Page"
 
 describe("Verify All menus", () => {
   const menus = new Menus();
@@ -30,4 +31,6 @@ describe("Verify All menus", () => {
   it("Verify the 'Ønskeliste' menu ", () => {
     menus.verifyMenus("Ønskeliste", "onskeliste/");
   });
+  
 });
+

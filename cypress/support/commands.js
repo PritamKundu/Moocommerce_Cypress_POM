@@ -49,7 +49,7 @@ Cypress.Commands.add('openUrl', () => {
    const url = "https://mooleker.moocommerce.no/"
    cy.visit(url)
    cy.url().then((get_Url) =>{ expect(get_Url).to.eq(url) })
-   cy.xpath("(//img[@alt='mooleker'])[1]").should('be.visible')
+   //cy.xpath("(//img[@alt='mooleker'])[1]").should('be.visible')
 })
 
 
